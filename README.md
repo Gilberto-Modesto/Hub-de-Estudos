@@ -1,4 +1,6 @@
-# 🚀 Hub de Estudos 
+# 🚀 Hub de Estudos — V1
+
+Estrutura organizada para GitHub Pages, VS Code/Live Server e futuras atualizações.
 
 Hub de estudos para TI, Marketing Digital, Inglês Técnico e Mídias Sociais.
 
@@ -72,3 +74,49 @@ Sem precisar reconstruir a interface.
 ## Observação sobre links
 
 Os recursos iniciais priorizam documentação oficial e plataformas reconhecidas. Como páginas externas podem mudar, revise os links periodicamente.
+
+
+## Estrutura do projeto
+
+```text
+Hub-de-Estudos/
+├── index.html
+├── catalogo.html
+├── dashboard.html
+├── favoritos.html
+├── glossario.html
+├── README.md
+└── assets/
+    ├── css/
+    │   ├── style.css
+    │   └── responsive.css
+    ├── js/
+    │   ├── app.js
+    │   ├── catalogo.js
+    │   ├── dashboard.js
+    │   ├── data.js
+    │   ├── favoritos.js
+    │   ├── glossario.js
+    │   ├── storage.js
+    │   └── ui.js
+    └── img/
+        ├── logo-hub-estudos.png
+        ├── favicon-16x16.png
+        ├── favicon-32x32.png
+        ├── apple-touch-icon.png
+        ├── icon-192.png
+        └── icon-512.png
+```
+
+## GitHub Pages
+
+1. Envie o conteúdo desta pasta para a raiz do repositório.
+2. Confirme que `index.html` está na raiz.
+3. Em **Settings → Pages**, selecione **Deploy from a branch**.
+4. Branch: **main**.
+5. Folder: **/(root)**.
+6. Salve e aguarde o deploy.
+
+## Imagens
+
+Todas as imagens ficam em `assets/img/`. Isso facilita trocar a logo, adicionar capas, banners e outros elementos visuais sem misturar imagens com CSS ou JavaScript.
