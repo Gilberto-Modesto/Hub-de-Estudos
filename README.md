@@ -1,4 +1,4 @@
-# 🚀 Hub de Estudos — V1
+# 🚀 Hub de Estudos 
 
 Hub de estudos para TI, Marketing Digital, Inglês Técnico e Mídias Sociais.
 
