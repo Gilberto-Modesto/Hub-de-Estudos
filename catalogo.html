@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo filtrável de recursos para estudos.">
+  <title>Catálogo | Hub de Estudos</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <div id="app"></div>
+  <main class="container page">
+    <div class="page-heading">
+      <div><span class="eyebrow">Biblioteca</span><h1>Catálogo de recursos</h1><p>Encontre cursos, documentação, vídeos, artigos e ferramentas.</p></div>
+    </div>
+    <section class="filters panel">
+      <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar por título, descrição ou tag..."></div>
+      <div class="filter-grid">
+        <select id="areaFilter"><option value="">Todas as áreas</option></select>
+        <select id="levelFilter"><option value="">Todos os níveis</option><option>Iniciante</option><option>Intermediário</option><option>Avançado</option></select>
+        <select id="typeFilter"><option value="">Todos os tipos</option></select>
+        <select id="costFilter"><option value="">Todos os custos</option><option>Gratuito</option><option>Freemium</option><option>Pago</option></select>
+        <select id="languageFilter"><option value="">Todos os idiomas</option><option>Português</option><option>Inglês</option><option>Espanhol</option></select>
+      </div>
+      <div class="filter-actions"><button class="btn btn-ghost" id="clearFilters">Limpar filtros</button><span id="resultCount" class="muted"></span></div>
+    </section>
+    <section id="resourceGrid" class="resource-grid"></section>
+  </main>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/catalogo.js"></script>
+</body>
+</html>

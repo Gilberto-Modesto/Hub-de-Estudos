@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Hub de Estudos</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <div id="app"></div>
+  <main class="container page">
+    <div class="page-heading"><div><span class="eyebrow">Acompanhamento</span><h1>Meu dashboard</h1><p>Veja a evolução dos estudos salvos neste navegador.</p></div></div>
+    <section id="summaryCards" class="stats-grid"></section>
+    <section class="dashboard-grid">
+      <div class="panel"><div class="panel-title"><h2>Progresso por área</h2></div><div id="areaProgress"></div></div>
+      <div class="panel"><div class="panel-title"><h2>Atividade</h2></div><div id="activity"></div></div>
+    </section>
+  </main>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>
