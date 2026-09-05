@@ -10,7 +10,7 @@ function renderHeader(){
   document.getElementById("themeBtn")?.addEventListener("click",()=>setTheme(loadState().theme==="dark"?"light":"dark"));
 }
 function renderFooter(){
-  document.body.insertAdjacentHTML("beforeend",`<footer><div class="container">Hub de Estudos V1 • Dados salvos localmente neste navegador.</div></footer>`);
+  document.body.insertAdjacentHTML("beforeend",`<footer><div class="container">Hub de Estudos</div></footer>`);
 }
 function showToast(msg){const el=document.createElement("div");el.className="toast";el.textContent=msg;document.body.appendChild(el);setTimeout(()=>el.remove(),2200);}
 function openNoteModal(resource){
